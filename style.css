@@ -1,0 +1,130 @@
+/* Background image */
+html {
+  background-image: url("img/rainbowBG.jpg");
+  background-size: cover;
+}
+
+/* Fixed width content */
+#content {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border: transparent;
+  border-radius: 20px;
+  width: 500px;
+  margin: 20px auto;
+  padding: 25px 75px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title font */
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+
+/* RGB text */
+#rgb-name {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+#rgb {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+/* Fixed width content */
+.single-digit-in {
+  width: 50px;
+}
+
+/* Input elements */
+input {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  width: 50px;
+  height: 20px;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+/* Dimension inputs */
+#width {
+  margin-bottom: 15px;
+  background-color: gray;
+}
+
+#height {
+  margin-bottom: 15px;
+  background-color: gray;
+}
+
+/* Yellow box */
+#colorBox {
+  background: yellow;
+  width: 400px;
+  height: 200px;
+  resize: none;
+  border: 3px solid grey;
+  margin: auto;
+}
+
+/* Black and white buttons */
+#btn1 {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 0px 10px;
+  margin-right: 20px;
+  margin: 15px;
+  border-color: grey;
+}
+
+#btn2 {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 0px 10px;
+  margin-left: 20px;
+  margin: 15px;
+  border-color: black;
+}
+
+/* Preview button */
+#btn3 {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 0px 10px;
+  color: white;
+  border-color: black;
+}
+
+/* Hover effect*/
+#btn1:hover {
+  opacity: 0.5;
+}
+
+#btn2:hover {
+  opacity: 0.5;
+}
+
+#btn3:hover {
+  opacity: 0.5;
+}
+
+/* Hyperlink */
+a {
+  text-decoration: none;
+  color: blue;
+}

@@ -1,0 +1,21 @@
+STYLE:
+  base font: Arial, Helvetica, sans-serif
+
+  All content is contained in a div that is center-fixed-width at 500px with 75px left/right padding and background: rgba(255,255,255,0.8)
+
+  title has font: Verdana, Geneva, Tahoma, sans-serif
+  title size is 42px w/ letting spacing of 2px
+
+  rgb text is bold and has font 'Courier New', Courier, monospace
+
+  display window has background of rgb(255, 255, 0) and has dimensions 400x200. Its border is 3px solid gray.
+
+  All buttons reduce opacity to 0.5 on hover
+
+LINKS:
+  Anchor tag links to https://en.wikipedia.org/wiki/RGB_color_model and opens in a new window
+
+SCRIPT:
+  Part 1: On clicking preview, the color values are read and the display area shows that color. The rgb text value below also updates to match.
+
+  Part 2: Remove the preview button and use change events on the inputs. Also constrain the input values to force them to be between 0 and 255. Then add step, min and max to the color input elements in the HTML.
